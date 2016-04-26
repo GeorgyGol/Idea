@@ -1,0 +1,3 @@
+[submodule "Django-1.9.5"]
+	path = Django-1.9.5
+	url = ssh://git@github.com/GeorgyGol/Jango4BPlant.git
