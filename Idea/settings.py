@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'polls',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -84,6 +85,7 @@ WSGI_APPLICATION = 'Idea.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
+        #'ENGINE': 'mysql.connector.django',
         'NAME': 'Test',
         'USER': 'root',
         'PASSWORD': 'dragon664',
@@ -115,6 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
 LANGUAGE_CODE = 'ru-ru'
+#LANGUAGE_CODE = 'hr-HR'
 
 TIME_ZONE = 'UTC'
 

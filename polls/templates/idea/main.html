@@ -1,0 +1,16 @@
+<h1>Contemporary main site!</h1>
+<table border="1" width="80%" align="center">
+
+{% if user_list %}
+    {% for u in user_list %}
+        <tr>
+        <td>ID = {{ u.0 }} </td>
+        <td>Name is {{u.1}}</td>
+        <td>email is <a href="mailto:{{u.2}}">{{u.2}}</a></td>
+        </tr> 
+    {% endfor %}
+{% else %}
+    <p>No user found.</p>
+{% endif %}
+
+</table>
