@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 """
 Django settings for Test project.
 
@@ -86,9 +88,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         #'ENGINE': 'mysql.connector.django',
-        'NAME': 'Test',
-        'USER': 'root',
-        'PASSWORD': 'dragon664',
+        'NAME': 'IdeZ',
+        'USER': 'IdezRoot',
+        'PASSWORD': 'AFigleNam99!',
         'HOST': '127.0.0.1',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
@@ -119,7 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'ru-ru'
 #LANGUAGE_CODE = 'hr-HR'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 
