@@ -15,4 +15,11 @@
 		<nature>org.python.pydev.pythonNature</nature>
 		<nature>org.python.pydev.django.djangoNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>main.html</name>
+			<type>1</type>
+			<location>/home/egor/git/Idea/main.html</location>
+		</link>
+	</linkedResources>
 </projectDescription>

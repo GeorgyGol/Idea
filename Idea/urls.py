@@ -22,7 +22,10 @@ from . import views
 
 
 urlpatterns = [
+    url('^', include('django.contrib.auth.urls')),           
     url(r'^admin/', admin.site.urls),
     url(r'^polls/', include('polls.urls')),
-     url(r'$', views.index),
+    url(r'^$', views.first),
+    url(r'^main.html', views.first),
+    url(r'^(idea|proj|task)/(hide|show)/$', views.index),
 ]

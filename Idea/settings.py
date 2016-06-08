@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig',
+    'django.contrib.flatpages',
+    'django.contrib.sites',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -58,8 +60,11 @@ ROOT_URLCONF = 'Idea.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+                 '/home/egor/git/Idea/Templ/',
+                 ],
         'APP_DIRS': True,
+        #'TEMPLATE_DIRS': ('r/home/egor/git/Idea/Templ',),
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',

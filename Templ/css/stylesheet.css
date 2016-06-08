@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #D7E1F2; /* Цвет фона */
+    color: maroon; /* Цвет текста */
+   }
+   td.cont {
+   	vertical-align:top;
+   	background: linen; /* Цвет колонок */
+   	height: 100%;
+   }
+   td.bt{
+   	vertical-align:middle;
+   	background: linen; /* Цвет колонок */
+   	height: 100%;
+   	width: 1%;
+   }
+   td.cont_hid {
+   	width: 0%
+   	vertical-align:top;
+   	background: linen; /* Цвет колонок */
+   	visibility: collapse;
+   }
+   
+   a { color: #008BCE; /* Цвет ссылок */ }
+   #container {
+    width: 100%; /* Ширина макета */
+    height: 100%;
+    margin: 0 auto; /* Выравниваем по центру */
+    background: #FCE600; /* Цвет колонок */
+   }
+   #header { 
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #D71920; /* Цвет фона шапки */
+   }
+   #nav, #aside {
+    float: left; width: 110px; padding: 5px;
+   }
+   #content {
+    background: #54B948;
+    margin: 0 120px; /* Ширина колонок */
+    padding: 10px;
+   }
+   #aside {
+    float: right; color: #000;
+   }
+   h2 { margin: 0 0 1em; }
+   #footer { 
+    clear: both; /* Отменяем действие float */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #D71920; /* Цвет фона подвала */
+   }
